@@ -56,6 +56,9 @@ class App {
         // VERIFICAR SE A API ESTÁ OK
         this.models.testeApi();
 
+        // MANTER TELA SEMPRE LIGADA
+        KeepAwake.start();
+
         // VERIFICAR SE O USUÁRIO ESTÄ LOGADO (LOGIN OU IDENTIFICAÇÃO SÃO DISPENSÁVEIS)
         //this.sessao.verificarLogado();
 
@@ -107,7 +110,7 @@ class App {
                                   console.log("Acabou o tempo! Vamos avisar o usuário!");
 
                                   // VIBRAR
-                                  window.navigator.vibrate(2500);
+                                  navigator.vibrate(3000);
 
                                   // AVISO NA TELA
                                   aviso("Tempo encerrado!","Você conseguiu chegar ao fim da tarefa, fazendo o que tinha planejado?");

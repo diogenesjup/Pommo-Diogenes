@@ -39,16 +39,16 @@
     <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
     <!-- STATUS BAR TRANSPARENTE -->
-    <preference name="StatusBarBackgroundColor" value="#000" />
+    <preference name="StatusBarBackgroundColor" value="#60A5FA" />
     
-    <preference name="SplashScreenDelay" value="1" />  
+    <preference name="SplashScreenDelay" value="0" />  
     <preference name="AutoHideSplashScreen" value="true" />  
-    <preference name="SplashScreen" value="none" />  
+    <preference name="SplashScreen" value="image" />  
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="ShowSplashScreenSpinner" value="false"/>
+    <preference name="ShowSplashScreenSpinner" value="true"/>
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreenSpinnerColor" value="white" />
-    <preference name="FadeSplashScreen" value="false"/>
+    <preference name="FadeSplashScreen" value="true"/>
     <preference name="FadeSplashScreenDuration" value="1200"/>
 
     <preference name="android-minSdkVersion" value="23" />
@@ -69,6 +69,7 @@
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-statusbar" />
+    <plugin name="cordova-plugin-vibration" />  
 
     <plugin name="cordova-plugin-x-socialsharing" />
     <feature name="SocialSharing">
@@ -96,6 +97,9 @@
     
     <plugin name="cordova-plugin-qrscanner" />  
     <plugin name="cordova-plugin-camera-preview" spec="https://github.com/diogenesjup/diogenes-camera-preview.git" />
+
+    <!-- INSONIA -->
+    <plugin name="cordova-plugin-firebasex" spec="latest" />
     
     <!-- Define app icon for each platform. -->
     <icon src="www/assets/images/icones/225.png" />
