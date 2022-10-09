@@ -107,7 +107,7 @@ class App {
                                   console.log("Acabou o tempo! Vamos avisar o usuário!");
 
                                   // VIBRAR
-                                  window.navigator.vibrate(10);
+                                  window.navigator.vibrate(2500);
 
                                   // AVISO NA TELA
                                   aviso("Tempo encerrado!","Você conseguiu chegar ao fim da tarefa, fazendo o que tinha planejado?");
