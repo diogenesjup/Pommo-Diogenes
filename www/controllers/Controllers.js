@@ -56,8 +56,8 @@ class App {
         // VERIFICAR SE A API ESTÁ OK
         this.models.testeApi();
 
-        // MANTER TELA SEMPRE LIGADA
-        KeepAwake.start();
+        // MANTER TELA SEMPRE LIGADA (EM CONSTRUÇÃO)
+        //KeepAwake.start();
 
         // VERIFICAR SE O USUÁRIO ESTÄ LOGADO (LOGIN OU IDENTIFICAÇÃO SÃO DISPENSÁVEIS)
         //this.sessao.verificarLogado();

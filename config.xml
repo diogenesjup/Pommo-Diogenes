@@ -98,8 +98,6 @@
     <plugin name="cordova-plugin-qrscanner" />  
     <plugin name="cordova-plugin-camera-preview" spec="https://github.com/diogenesjup/diogenes-camera-preview.git" />
 
-    <!-- INSONIA -->
-    <plugin name="cordova-plugin-firebasex" spec="latest" />
     
     <!-- Define app icon for each platform. -->
     <icon src="www/assets/images/icones/225.png" />
