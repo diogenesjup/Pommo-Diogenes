@@ -1,0 +1,41 @@
+<div class="iniciar-contagem">
+
+	<h3>Adicionar novo cronometro</h3>
+	<p>Selecione o assunto e o tempo em minutos:</p>
+
+	<form id="formCronometro" method="post" action="javascript:void(0)" onsubmit="app.novoCronometro(this)">
+
+		<div class="form-group">
+			<label>Assunto</label>
+			<select class="form-control" id="assunto" name="assunto">
+				<option value="Ideias">Ideias</option>
+				<option value="Instrumentos">Instrumentos</option>
+				<option value="Técnica">Técnica</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label>Tempo</label>
+			<input type="number" class="form-control" name="tempo" id="tempo" placeholder="Minutos" min="1" step="1" placeholder="Tempo em minutos">
+		</div>
+
+		<div class="form-group">
+			<label>Cor</label>
+			<select class="form-control" id="cor" name="cor">
+				<option value="#60A5FA">Azul</option>
+				<option value="#DC2626">Vermelho</option>
+				<option value="#15803D">Verde</option>
+				<option value="#DB2777">Rosa</option>
+				<option value="#111827">Preto (escuro)</option>
+			</select>
+		</div>
+
+		<div class="form-group text-center">
+			<button type="submit" class="btn btn-primary">
+				Iniciar contagem
+			</button>
+		</div>
+		
+	</form>
+
+</div>

@@ -1,0 +1,22 @@
+{
+  "name": "com.diogenesjunior.pommodiogenes",
+  "version": "1.0.0",
+  "description": "Um cronometro simples e direto para pommodoro diário",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ https://github.com/diogenesjup/Pommo-Diogenes.git"
+  },
+  "keywords": [
+    "Pommo Diogenes"
+  ],
+  "author": "Diogenes Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": " https://github.com/diogenesjup/Pommo-Diogenes/issues"
+  },
+  "homepage": " https://github.com/diogenesjup/Pommo-Diogenes/#readme"
+}
