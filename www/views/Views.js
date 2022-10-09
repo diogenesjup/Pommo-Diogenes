@@ -49,7 +49,7 @@ class Views{
 
             this._content.html(`
                
-               <h1 id="assuntoTitulo" style="margin-top:80px;">INSTRUMENTOS</h1>
+               <h1 id="assuntoTitulo" style="margin-top:80px;text-transform:uppercase">INSTRUMENTOS</h1>
 
                <div class="mini-cronometro">
                    <span class="mini-minutos">00</span> :

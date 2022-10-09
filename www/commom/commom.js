@@ -160,13 +160,8 @@
                 // RESETAR O HTML DO PROMPT
                 app.views.promptPadrao();
 
-                $(".prompt").removeClass("wow fadeOut");
-
-                $(".backdrop").fadeIn(450);
-                $(".prompt").show(500);
-
-                $(".backdrop").css("display","fixed");
-                $(".prompt").css("display","fixed");
+                $(".backdrop").css("visibility","visible");
+                $(".prompt").css("visibility","visible");
 
                 $(".prompt").attr("data-conteudo","views/parts/add-cronometro.html");
 
@@ -176,10 +171,8 @@
 
             function closeBackdrop(){
 
-              $(".backdrop").fadeOut(550);
-              $(".prompt").addClass("wow fadeOut");
-
-              app.views.animarTransicao();
+                $(".backdrop").css("visibility","hidden");
+                $(".prompt").css("visibility","hidden");
 
             }
 

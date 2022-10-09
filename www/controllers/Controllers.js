@@ -110,7 +110,7 @@ class App {
                                   window.navigator.vibrate(10);
 
                                   // AVISO NA TELA
-                                  aviso("Tempo encerrado!","Você conseguiu chegar ao fim da tarefa, fazend o que tinha planejado?");
+                                  aviso("Tempo encerrado!","Você conseguiu chegar ao fim da tarefa, fazendo o que tinha planejado?");
                                   
                                   //setTimeout(function(){
                                   //    location.href=homeUrl;
